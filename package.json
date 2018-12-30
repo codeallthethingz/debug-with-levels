@@ -1,0 +1,44 @@
+{
+  "name": "debug-with-levels",
+  "version": "0.0.2",
+  "description": "Adds output levels to debug's output but doesn't enforce a level hierarchy and uses the same mechanism as debug for turning levels on and off",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codeallthethingz/debug-with-levels.git"
+  },
+  "keywords": [
+    "debug",
+    "logging"
+  ],
+  "author": "codeallthethingz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeallthethingz/debug-with-levels/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/codeallthethingz/debug-with-levels",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
