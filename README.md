@@ -26,7 +26,9 @@ log.error('hello') // project:function:error hello +0ms
 
 ```
 
-<kbd><img src="example.png"></kbd>
+Examples mixing and matching the levels.
+
+<kbd><img src="example.png" width="400"></kbd>
 
 ## Run Tests
 
