@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/codeallthethingz/debug-with-levels",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^29.3.1"
   },
   "dependencies": {
     "debug": "^4.1.1"
